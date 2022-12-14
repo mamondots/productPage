@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    position: relative;
+    width:100%;
+    height:100vh;
+    padding:40px 60px;
+    background-color:#f6f2e45f;
+}
+.mainPage{
+    position: relative;
+    width:100%;
+    height:88vh;
+    border-radius:25px;
+}
+.swiper{
+    position: relative;
+    width:100%;
+    height:88vh;
+    border-radius:25px;
+}
+.swiper-slide{
+    position: relative;
+    width:100%;
+    height:88vh;
+    border-radius:25px;
+    background-color:#ffffff;
+}
+.productBox{
+    position: relative;
+    left:-10vh;
+    top:-5vh;
+    width:65vh;
+    height:65vh;
+    background-color:#dfba36;
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    transform:rotate(70deg);
+}
+.slide2 .productBox{
+    background-color:#c44f66;
+}
+.slide3 .productBox{
+    background-color:#9b48e4;
+}
+.productBox .whiteImg{
+    position: relative;
+    left:8vh;
+    top:20vh;
+    z-index:2;
+}
+.productBox .whiteImg img{
+    position: absolute;
+    top:-21vh;
+    left:10vh;
+    width:12%;
+    z-index:2;
+}
+.productBox .whiteImg .whiteImg2{
+    position: absolute;
+    top:25vh;
+    left:35vh;
+    width:23%;
+    transform:rotate(-80deg);
+    z-index:2;
+}
+.productBox .whiteImg h1{
+    position: absolute;
+    left:12vh;
+    transform:rotate(-70deg);
+    font-size:3.5rem;
+    color:#fff;
+    font-weight:900;
+    font-family:'Manrope', sans-serif;
+    line-height:1.1;
+}
+.mainProducts{
+    position: relative;
+    top:-45vh;
+    left:45vh;
+}
+.mainProducts .firstImg img{
+    width:15%;
+    transform:rotate(20deg);
+}
+.mainProducts .secondImg{
+    position: relative;
+    left:-25vh;
+    top:-18vh;
+}
+.mainProducts .thirdImg{
+    position: absolute;
+    top:-18vh;
+    left:4vh;
+}
+.mainProducts .thirdImg img{
+    width:80%;
+    transform:rotate(-35deg);
+}
+.productDetils{
+    position: absolute;
+    top:25vh;
+    right:12vh;
+}
+.productTitle{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+}
+.productName h1{
+    font-size:28px;
+    font-weight:500;
+    color:#080808;
+}
+.productName p{
+    font-size:18px;
+    font-weight:500;
+    color:#060606;
+    padding:3px 0;
+}
+.productTitle .yesNo span{
+    position: relative;
+    top:12px;
+    font-size:15px;
+    font-weight:500;
+    color:#000000;
+}
+.itemBox{
+    position: relative;
+    width:80vh;
+    display:flex;
+    margin:20px 0;
+}
+.itemBox .listItem{
+    position: relative;
+    display:flex;
+    width:80vh;
+    justify-content: space-between;
+}
+.itemBox .listItem .itemName{
+    display:flex;
+    justify-content: space-between;
+}
+.itemBox .listItem .itemName h1{
+    font-size:18px;
+    font-weight:400;
+    color:#000;
+}
+.itemBox .listItem .itemName p{
+    font-size:18px;
+    font-weight:400;
+    color:#000;
+    position: relative;
+    left:80px;
+    top:5px;
+}
+.itemBox .listItem .itemImg{
+    position: relative;
+    top:-5px;
+    left:60px;
+}
+.itemBox .listItem .itemImg img{
+    width:70%;
+}
+.itemBox .listItem .icon span{
+    font-size:20px;
+    position: relative;
+    top:3px;
+}
+.productDetils .itemBox2 .itemName p{
+    position: relative;
+    left:100px;
+}
+.productDetils .itemBox3 .itemName p{
+    position: relative;
+    left:120px;
+}
+.productDetils .itemBox2 .itemImg{
+    left:75px;
+}
+.productDetils .itemBox3 .itemImg{
+    left:90px;
+}
+.modeImg{
+    position: absolute;
+    top:8vh;
+    right:10vh;
+    width:40px;
+    height:40px;
+    background-color:#dfba36;
+    border-radius:50%;
+    text-align:center;
+    line-height:40px;
+    box-shadow:5px 5px 25px #dfba36;
+    overflow:hidden;
+}
+.slide2 .modeImg{
+    background-color:#c44f66;
+    box-shadow:5px 5px 25px #c44f66;
+}
+.slide3 .modeImg{
+    background-color:#9b48e4;
+    box-shadow:5px 5px 25px #9b48e4;
+}
+.modeImg img{
+    position: relative;
+    top:5px;
+    left:-4px;
+}
+.slide2 .modeImg img{
+    position: relative;
+   top:0px;
+   left:-4px;
+}
+.slide3 .modeImg img{
+    position: relative;
+    width:97%;
+    top:3px;
+    left:0px;
+}
+.menuIcon{
+    position: relative;
+    z-index:2;
+    top:-20vh;
+    left:80vh;
+    width:250px;
+    height:60px;
+    background-color:#fff;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    text-align:center;
+    line-height:60px;
+}
+.menuIcon i{
+    position: relative;
+    font-size:18px;
+    margin:0 12px;
+    transition:0.3s;
+    cursor: pointer;
+}
+.menuIcon i:hover{
+    color:#df6336;
+}
+.rightArrow{
+    position: relative;
+    width:40px;
+    height:40px;
+    background-color:rgb(44,44,43);
+    line-height:40px;
+    color:#fff;
+    border-radius:8px;
+    transition:0.3s;
+}
+.rightArrow:hover{
+    background-color:rgb(103,103,103);
+    color:#fff;
+}
